@@ -1,19 +1,21 @@
 package miPrincipal;
 public class AppLadrillos {
     public static void menu(){
-        //Solucion iterativa
-        /*for(int i=0;i<10;i++){
-            dibujarHilera();
+        System.out.println("Version Iterativa");
+        dibujar_pared_ite(10);
+        System.out.println("Version Recursiva");
+        dibujar_pared_rec(10);
+    }
+    public static void dibujar_pared_ite(int n){
+        for(int i=10;i>0;i--){
+            System.out.println("XXXXXXXXXXXXXXXX");
         }
-        */
-        //Solucion recursiva
-        dibujarPared();
+
     }
-    public static void dibujarPared(){
-        dibujarPared();
-        System.out.println("XXXXXXXXXXXXXXXXXXXXXXXXXXXX");
-    }
-    public static void dibujarHilera(){
-        System.out.println("XXXXXXXXXXXXXXXXXXXXXXXXXXXX");
+    public static void dibujar_pared_rec(int n){
+        if (n>0)
+           dibujar_pared_rec(n-1);
+        System.out.println("XXXXXXXXXXXXXXXX");  
+
     }
 }

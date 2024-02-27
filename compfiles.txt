@@ -1,4 +1,6 @@
 ./miPrincipal/Principal.java
 ./miPrincipal/AppLadrillos.java
-./miPrincipal/PosicionIlegalException.java
+./miPrincipal/AppSumaDigitos.java
+./miPrincipal/AppFactorial.java
+./miPrincipal/AppNaturales.java
 ./miTest/AppTest.java
