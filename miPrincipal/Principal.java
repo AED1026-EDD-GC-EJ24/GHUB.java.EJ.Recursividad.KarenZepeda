@@ -15,6 +15,8 @@ public class Principal {
             System.out.println("2) FACTORIAL            ");
             System.out.println("3) NATURALES            ");
             System.out.println("4) SUMA DIGITOS         ");
+            System.out.println("5) ALFABETO         ");
+            System.out.println("6) MAXIMO COMUN DIVISOR ");
             System.out.println("            ");
             System.out.println("0) SALIR");
             System.out.print("Selecciona opción:");
@@ -32,6 +34,12 @@ public class Principal {
                break;
             case 4:
                AppSumaDigitos.menu();
+               break; 
+            case 5:
+               AppAlfeto.menu();
+               break; 
+            case 6:
+               AppMaximoComunDivisor.menu();
                break; 
             case 0:
                System.out.println("ADIOS!");
