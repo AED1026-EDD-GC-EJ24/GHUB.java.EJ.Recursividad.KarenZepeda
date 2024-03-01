@@ -23,11 +23,16 @@ public class AppFibonacci {
         return f;
     }
     static double fibonacciRec(int n){
+        cont ++;
         double f;
         if(n<=2){
             f =1;
         }else{
-            ,m
+            f= fibonacciRec(n-1)+fibonacciRec(n-2);
         }
     }
+    static long setContador(){
+        return cont;
+    }
+    static double fibonacciRecOptimizado(int x, Hashtable<Integer.Double)
 }
