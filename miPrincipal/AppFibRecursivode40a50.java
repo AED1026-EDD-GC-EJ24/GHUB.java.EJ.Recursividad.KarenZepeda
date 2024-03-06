@@ -8,6 +8,7 @@ public class AppFibRecursivode40a50 {
         Performance p= new Performance();
         int desde = 40;
         int hasta = 50;
+        double ant=0;
         for(int i = desde; i<=hasta;i++){
             p.start();
             double f= AppFibonacci.fibonacciRec(i);
